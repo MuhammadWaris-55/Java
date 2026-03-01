@@ -1,36 +1,24 @@
-# ThrowDemo – Java Exception Handling Example
+# ☕ Java Learning Repository
 
-This Java program demonstrates the use of the **`throw` keyword** to explicitly throw different **built-in exceptions** and handle them using **try-catch blocks**.
+This repository contains my daily Java learning practice.  
+I regularly upload code as I explore core Java and Object-Oriented Programming (OOP) concepts.
 
-## 📌 Description
+## 📚 Currently Learning
+- Classes & Objects
+- Constructors
+- Encapsulation
+- Arrays & ArrayLists
+- Core & advance OOP Principles 
+- Problem Solving & Logic Building
 
-The program asks the user to enter a number from **1 to 4**.  
-Based on the entered number, a specific Java exception is thrown manually using the `throw` keyword.
+More advanced Java and OOP concepts will be added as I continue learning.
 
-Each exception is then handled using its respective `catch` block.
+## 🎯 Purpose
+- Strengthen Java fundamentals
+- Practice coding consistently
+- Build strong OOP understanding
+- Track my learning journey publicly
 
-## ⚙️ Exceptions Demonstrated
+---
 
-| Input | Exception Thrown |
-|------|------------------|
-| 1 | ArithmeticException |
-| 2 | NegativeArraySizeException |
-| 3 | ArrayIndexOutOfBoundsException |
-| 4 | ArrayStoreException |
-
-## 🧠 Concepts Covered
-
-- `throw` keyword
-- Built-in Java exceptions
-- Multiple `catch` blocks
-- Exception handling using `try-catch`
-- Input using `BufferedReader`
-
-## ▶️ How to Run
-
-1. Compile the program:
-   ```bash
-   javac ThrowDemo.java
-2. Run the program:
-
-java ThrowDemo
+🚀 Consistency > Perfection  
