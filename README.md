@@ -9,6 +9,8 @@ I regularly upload code as I explore core Java and Object-Oriented Programming (
 - Encapsulation
 - Arrays & ArrayLists
 - Core & advance OOP Principles 
+- Streams 
+- GUI 
 - Problem Solving & Logic Building
 
 More advanced Java and OOP concepts will be added as I continue learning.
