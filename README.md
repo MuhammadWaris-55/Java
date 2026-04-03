@@ -18,6 +18,7 @@ More advanced Java and OOP concepts will be added as I continue learning.
 
 ## 🎯 Purpose
 - Strengthen Java fundamentals
+- Learning GUI in Java
 - Practice coding consistently
 - Build strong OOP understanding
 - Track my learning journey publicly
