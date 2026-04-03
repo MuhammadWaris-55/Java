@@ -1,3 +1,4 @@
+// Using Generics With Multiple Variables
 public class GenericsMultiVar<T, U> {
     private T firstItem;
     private U secondItem;
