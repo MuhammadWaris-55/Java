@@ -11,13 +11,11 @@ public class Main {
     public Main() {
         jf = new JFrame("My Window");
 
-        // Button 1 - Say Hello
         JButton btnHello = new JButton("Say Hello");
         btnHello.addActionListener(e -> 
             JOptionPane.showMessageDialog(jf, "Hello!")
         );
 
-        // Button 2 - Say Goodbye
         JButton btnBye = new JButton("Say Goodbye");
         btnBye.addActionListener(e -> 
             JOptionPane.showMessageDialog(jf, "Goodbye!")
