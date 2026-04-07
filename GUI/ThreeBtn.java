@@ -16,14 +16,16 @@ public class Main {
             JOptionPane.showMessageDialog(jf, "Hello!")
         );
 
+
         JButton btnBye = new JButton("Say Goodbye");
         btnBye.addActionListener(e -> 
             JOptionPane.showMessageDialog(jf, "Goodbye!")
         );
 
-        // Button 3 - Close Window
+
         JButton btnClose = new JButton("Close");
         btnClose.addActionListener(e -> System.exit(0));
+        
 
         jf.setLayout(new FlowLayout());
         jf.add(btnHello);
