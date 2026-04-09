@@ -6,11 +6,13 @@ public class department{
         this.dname = dname;
         this.belongsto = x;
     }
-    
+
     public String get_dname(){
         return dname;
     }
+
     public String toString(){
         return dname;
     }
+    
 }
