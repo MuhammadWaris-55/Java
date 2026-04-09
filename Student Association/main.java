@@ -6,6 +6,7 @@ public class main{
         department d2 = new department("CS" , u1);
         student s1 = new student( "Waris" , u1 , d1);
         student s2 = new student("Ali" , u1 , d2);
+        
         u1.set_student(s1);
         u1.set_student(s2);
         u1.set_department(d1);
