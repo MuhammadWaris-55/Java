@@ -1,6 +1,6 @@
 public class department{
     public String dname;
-    public university belongsto;
+    public university belongsto; // University this department belongs to
 
     public department(String dname , university x){
         this.dname = dname;
