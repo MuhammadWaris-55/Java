@@ -2,6 +2,7 @@ public class main{
     public static void main(String[] args){
         System.out.println("Educational Institute");
 
+        // Setup university, departments and students for FAST University
         university u1 = new university("FAST");
         department d1 = new department( "SE" , u1);
         department d2 = new department("CS" , u1);
@@ -13,10 +14,12 @@ public class main{
         u1.set_department(d1);
         u1.set_department(d2);
 
+        // Setup university and department for IBA
         university u2 = new university("IBA");
         department d3 = new department("BBA" , u2);
         u2.set_department(d3);
 
+        // Display results
         System.out.println("University name = " + u1.get_name());
         System.out.println("Department = " + u2.get_department());
         System.out.println("Students = " + u1.get_students());
