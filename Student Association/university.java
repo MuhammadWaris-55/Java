@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 public class university{
     public String name;
-    ArrayList<department> deplist = new ArrayList<>();
-    ArrayList<student> studentlist = new ArrayList<>();
+    ArrayList<department> deplist = new ArrayList<>();    // Departments in this university
+    ArrayList<student> studentlist = new ArrayList<>();  // Students enrolled in this university
+
     public university(String name){
         this.name = name;
     }
