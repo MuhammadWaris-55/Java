@@ -3,6 +3,7 @@ public class Recordmanagement{
     ArrayList<Record> records = new ArrayList<>(); 
 
     public void addrecord(Record r) throws Exception {
+        // Validate year range before adding
         if(r.year < 1996 || r.year > 2026){
             throw new Exception("Year must be between 1996 and 2026");
         }
@@ -22,7 +23,6 @@ public class Recordmanagement{
 
         try{
             Record r1 = new Record("My song" , 1995);
-
             manager.addrecord(r1);
             manager.printrecords();
         }catch(Exception e){
