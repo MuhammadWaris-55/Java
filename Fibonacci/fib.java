@@ -47,6 +47,7 @@ public class fib{
         int sum;
         System.out.println(n1);
         System.out.println(n2);
+        // Generate z more terms after the initial two
         for(int i = 0 ; i<z ; i++){
             sum = n1 + n2;
             System.out.println(sum);
@@ -56,12 +57,11 @@ public class fib{
     }
     public static void Fac(int num){
         int fact = 1;
+        // Multiply from 1 to num to get factorial
         for(int i = 1; i<=num; i++){
             fact = fact * i;
         }
-
         System.out.println(fact);
-
     }
     public static void main(String[] args){
         fabseries(0 , 1 , 5);
