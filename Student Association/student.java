@@ -1,7 +1,8 @@
 public class student{
     public String sname;
-    public university enrolledin;
-    public department studiesin;
+    public university enrolledin; // University the student is enrolled in
+    public department studiesin;  // Department the student belongs to
+
     public student(String sname , university u , department z){
         this.sname = sname;
         this.enrolledin = u;
