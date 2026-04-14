@@ -1,7 +1,8 @@
 public class People{
     public String pname;
-    public Amusement goesto;
-    public Rides enjoyes;
+    public Amusement goesto;  // Park this person visits
+    public Rides enjoyes;     // Ride this person enjoys
+
     public People(String pname , Amusement a , Rides r){
         this.pname = pname;
         this.goesto = a;
