@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 public class Amusement{
     public String name;
-    ArrayList<Rides> rideslist = new ArrayList<>();
-    ArrayList<People> peoplelist = new ArrayList<>();
+    ArrayList<Rides> rideslist = new ArrayList<>();    // Rides available in this park
+    ArrayList<People> peoplelist = new ArrayList<>();  // People visiting this park
+
     public Amusement(String name){
         this.name = name;
     }
