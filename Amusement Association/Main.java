@@ -1,6 +1,8 @@
 public class Main{
     public static void main(String[] args){
         System.out.println("Amusement Park");
+
+        // Setup park, rides and people
         Amusement a1 = new Amusement("Adventure Land");
         Rides r1 = new Rides("Aladdin", a1);
         Rides r2 = new Rides("Frisbee", a1);
@@ -10,11 +12,10 @@ public class Main{
         a1.set_people(p2);
         a1.set_rides(r1);
         a1.set_rides(r2);
+
+        // Display results
         System.out.println("Amusement Park = " + a1.get_name());
         System.out.println("Rides = " + a1.get_rides());
         System.out.println("People = " + a1.get_people());
-        // System.out.println()
-
-
     }
 }
