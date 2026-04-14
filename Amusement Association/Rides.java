@@ -1,6 +1,7 @@
 public class Rides{
     public String rname;
-    public Amusement belongsto;
+    public Amusement belongsto; // Park this ride belongs to
+
     public Rides(String rname , Amusement x){
         this.rname = rname;
         this.belongsto = x;
