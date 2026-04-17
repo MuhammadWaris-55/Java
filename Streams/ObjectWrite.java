@@ -1,5 +1,6 @@
 import java.io.*;
 public class ObjectWrite {
+    // Serializable allows Person objects to be written to a file
     public static class Person implements Serializable{
         public String name = null;
         public int age = 0;
@@ -28,6 +29,7 @@ public class ObjectWrite {
                 new ObjectInputStream(new FileInputStream("person.bin"));
 
         try {
+            // EOFException signals end of file when no more objects to read
             while (true) {
                 Person personRead = (Person) objectInputStream.readObject();
                 System.out.println(personRead.name);
