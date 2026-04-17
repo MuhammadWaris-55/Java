@@ -11,6 +11,7 @@ public class OutputStream {
         try{
             os=new FileOutputStream("my Data.txt");
             BufferedOutputStream bs=new BufferedOutputStream(os);
+            // Write ASCII characters 65-74 (A-J) to file
             for (int i = 65; i < 75; i++) {
                 os.write(i);
             }
