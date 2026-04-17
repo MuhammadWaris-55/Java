@@ -7,6 +7,7 @@ public class Main {
         try{
             is= new FileInputStream("my data.txt");
             int next;
+            // Read file byte by byte and print as char until end of file (-1)
             while((next=is.read())!=-1){
                 System.out.println("next = "+ (char)next);
             }
