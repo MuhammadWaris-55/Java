@@ -13,6 +13,7 @@ I regularly upload code as I explore core Java and Object-Oriented Programming (
 - Streams 
 - GUI 
 - Problem Solving & Logic Building
+- Inheritance
 
 More advanced Java and OOP concepts will be added as I continue learning.
 
