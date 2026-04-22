@@ -1,11 +1,11 @@
 public class Car extends Vehicle{
     private int NoofDoors;
     public Car(String brand , String model , float fueltank , int NoofDoors){
-        super(brand, model, fueltank);
+        super(brand, model, fueltank); // Initialize Vehicle fields
         this.NoofDoors = NoofDoors;
     }
     public Car(Car x){
-        super(x.brand , x.model , x.fueltank);
+        super(x.brand , x.model , x.fueltank); // Copy constructor using parent fields
         this.NoofDoors = x.NoofDoors;
     }
     public void drive(){
