@@ -2,7 +2,7 @@ public class MotorBike extends Vehicle{
     private boolean hassidecar;
 
     public MotorBike(String brand , String model , float fueltank , boolean hassidecar){
-        super(brand , model , fueltank);
+        super(brand , model , fueltank); // Initialize Vehicle fields
         this.hassidecar = hassidecar;
     }
     public void drive(){
