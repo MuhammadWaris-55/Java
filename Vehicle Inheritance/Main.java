@@ -6,7 +6,7 @@ public class Main {
         c1.display();
         MotorBike m1 = new MotorBike("Kawasaki" , "H2r" , 20 , false);
         m1.display();
-        Car c2 = new Car(c1);
+        Car c2 = new Car(c1); // Copy constructor — c2 is a copy of c1
         c2.display();
     }
 }
