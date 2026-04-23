@@ -1,7 +1,7 @@
 public class Vehicle {
     protected String brand;
     protected String model;
-    protected float fueltank;
+    protected float fueltank; // Fuel tank capacity in liters
 
     public Vehicle(String brand , String model , float fueltank){
         this.brand = brand;
