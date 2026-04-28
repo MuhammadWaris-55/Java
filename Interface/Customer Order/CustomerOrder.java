@@ -2,7 +2,7 @@ public abstract class CustomerOrder {
 
     private String orderID;
     private double subtotalAmount;
-    private PaymentProcessor currentProcessor;
+    private PaymentProcessor currentProcessor; // Strategy for processing payment
 
     public CustomerOrder(String orderID, double subtotalAmount) {
         this.orderID = orderID;
@@ -17,8 +17,9 @@ public abstract class CustomerOrder {
         return orderID;
     }
 
-    public abstract void calculateTotalWithFees();
+    public abstract void calculateTotalWithFees(); // Subclasses define their own fee logic
 
+    // final prevents subclasses from overriding the checkout flow
     public final void processCheckout() {
         System.out.println("=== Starting Checkout for Order: " + orderID + " ===");
         validateOrder();
