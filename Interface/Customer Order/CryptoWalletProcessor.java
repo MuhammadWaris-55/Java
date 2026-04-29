@@ -1,6 +1,6 @@
 public class CryptoWalletProcessor implements PaymentProcessor {
 
-    private String walletAddress;
+    private String walletAddress; // Destination wallet address for the transaction
 
     public CryptoWalletProcessor(String walletAddress) {
         this.walletAddress = walletAddress;
