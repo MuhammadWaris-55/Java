@@ -3,7 +3,7 @@ import java.util.List;
 
 public class CheckoutController {
 
-    private List<CustomerOrder> activeCheckoutQueue;
+    private List<CustomerOrder> activeCheckoutQueue; // Tracks orders currently being processed
 
     public CheckoutController() {
         this.activeCheckoutQueue = new ArrayList<>();
@@ -15,11 +15,10 @@ public class CheckoutController {
         System.out.println(">> CheckoutController: Order [" + order.getOrderID() + "] added to queue. Queue size: " + activeCheckoutQueue.size());
 
         order.setPaymentProcessor(method);
-
         order.calculateTotalWithFees();
-
         order.processCheckout();
 
+        // Remove order from queue once checkout is complete
         activeCheckoutQueue.remove(order);
         System.out.println(">> CheckoutController: Order [" + order.getOrderID() + "] removed from queue. Queue size: " + activeCheckoutQueue.size() + "\n");
     }
