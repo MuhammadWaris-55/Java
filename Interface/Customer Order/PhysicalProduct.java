@@ -9,7 +9,7 @@ public class PhysicalProduct extends CustomerOrder {
 
     @Override
     public void calculateTotalWithFees() {
-        double shippingCost = 10.00;
+        double shippingCost = 10.00; // Flat shipping fee
         double total = getSubtotalAmount() + shippingCost;
         System.out.println("Physical Product - Shipping to: " + shippingAddress);
         System.out.println("Subtotal: $" + getSubtotalAmount() + " + Shipping: $" + shippingCost + " = Total: $" + total);
