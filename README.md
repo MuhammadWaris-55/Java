@@ -13,9 +13,9 @@ I regularly upload code as I explore core Java and Object-Oriented Programming (
 - Streams (Input & Output)
 - GUI 
 - Problem Solving & Logic Building
+- Interface
 - Inheritance
 - Polymorphism
-- Interface
 - Abstract Classes
 
 More advanced Java and OOP concepts will be added as I continue learning.
