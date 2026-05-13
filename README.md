@@ -21,6 +21,7 @@ I regularly upload code as I explore core Java and Object-Oriented Programming (
 More advanced Java and OOP concepts will be added as I continue learning.
 
 ## 🎯 Purpose
+- Learn Main concepts of Object Oriented Programming
 - Strengthen Java fundamentals
 - Learning GUI in Java
 - Practice coding consistently
