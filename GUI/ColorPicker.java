@@ -27,8 +27,8 @@ public class ColorText {
         // Red button clicked
         redButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                displayLabel.setText(inputField.getText());
                 displayLabel.setForeground(Color.RED);
+                displayLabel.setText(inputField.getText());
             }
         });
 
@@ -43,8 +43,8 @@ public class ColorText {
         // Green button clicked
         greenButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                displayLabel.setText(inputField.getText());
                 displayLabel.setForeground(Color.GREEN);
+                displayLabel.setText(inputField.getText());
             }
         });
 
@@ -52,8 +52,8 @@ public class ColorText {
         frame.add(new JLabel("Type something:"));
         frame.add(inputField);
         frame.add(redButton);
-        frame.add(blueButton);
         frame.add(greenButton);
+        frame.add(blueButton);
         frame.add(displayLabel);
 
         // Show the window
