@@ -10,7 +10,7 @@ I regularly upload code as I explore core Java and Object-Oriented Programming (
 - Arrays & ArrayLists
 - Core & advance OOP Principles 
 - Generics 
-- Streams 
+- Streams (Input)
 - GUI 
 - Problem Solving & Logic Building
 - Inheritance
