@@ -20,9 +20,9 @@ public class ColorText {
         displayLabel.setFont(new Font("Arial", Font.BOLD, 18));
 
         // Three color buttons
-        JButton redButton    = new JButton("Red");
-        JButton blueButton   = new JButton("Blue");
         JButton greenButton  = new JButton("Green");
+        JButton blueButton   = new JButton("Blue");
+        JButton redButton    = new JButton("Red");
 
         // Red button clicked
         redButton.addActionListener(new ActionListener() {
