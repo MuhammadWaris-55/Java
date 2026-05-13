@@ -15,6 +15,7 @@ I regularly upload code as I explore core Java and Object-Oriented Programming (
 - Problem Solving & Logic Building
 - Inheritance
 - Polymorphism
+- Interface
 - Abstract Classes
 
 More advanced Java and OOP concepts will be added as I continue learning.
