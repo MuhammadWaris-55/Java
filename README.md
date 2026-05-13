@@ -11,7 +11,7 @@ I regularly upload code as I explore core Java and Object-Oriented Programming (
 - Core & advance OOP Principles 
 - Generics 
 - Streams (Input & Output)
-- GUI 
+- GUI (Swing)
 - Problem Solving & Logic Building
 - Interface
 - Inheritance
