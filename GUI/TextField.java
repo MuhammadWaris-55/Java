@@ -8,7 +8,7 @@ public class TextField {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new FlowLayout());
 
-        JTextField textfield = new JTextField();
+        JTextField textfield = new JTextField(); //Making New TextField
         textfield.setPreferredSize(new Dimension(300, 100));
         frame.add(textfield);
 
