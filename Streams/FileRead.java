@@ -7,8 +7,6 @@ public class FileRead {
     public static void main(String[] args) {
         String filepath = "testing.txt";
 
-
-
         try(BufferedReader reader = new BufferedReader(new FileReader(filepath))){
             System.out.println("Ha Ada Iha File Payi aa");
         }
