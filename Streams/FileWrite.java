@@ -10,9 +10,11 @@ public class FileWrite {
             write.write("I Like BMW");
             System.out.println("File Has been Written");
         }
+
         catch (FileNotFoundException e){
             System.out.println("File Ji Location Nathi Mile");
         }
+        
         catch (IOException e){
             System.out.println("Kon Likhandam Cha Kande");
         }
