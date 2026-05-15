@@ -6,7 +6,6 @@ import java.io.FileNotFoundException;
 public class FileWrite {
     public static void main(String[] args) {
 
-
         try(FileWriter write = new FileWriter("testing.txt")){
             write.write("I Like BMW");
             System.out.println("File Has been Written");
