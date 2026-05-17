@@ -27,9 +27,6 @@ class Desi implements Restaurant{
         return"Order Achai to Table te ";
     }
     public void generateBill() {
-        System.out.println("Hare pesa bhi bhar");
-        int total = 0;
-        for (int p : price) total += p;
-        System.out.println("Bill for " + resName + ": Rs." + total);
+        System.out.println("Hare pesa bhi bhar");;
     }
 }
