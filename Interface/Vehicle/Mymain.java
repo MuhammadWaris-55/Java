@@ -1,24 +1,19 @@
 //Main class
 public class Mymain {
     public static void main(String[] args) {
-        Car car = new Car("BMW", 4);
+        Car car = new Car();
 
-        System.out.println(" Car Details");
-        car.type();
-        car.model();
+        System.out.println("Car Details");
         car.fueltank();
+        car.model();
         car.speed();
-        car.extrafeature();
+        car.type();
 
-        System.out.println();
-
-        Motorbike bike = new Motorbike("Ninja H2R");
-
+        Motorbike bike = new Motorbike();
         System.out.println("Bike Details");
-        bike.type();
-        bike.model();
         bike.fueltank();
+        bike.model();
         bike.speed();
-        bike.extrafeature();
+        bike.type();
     }
 }

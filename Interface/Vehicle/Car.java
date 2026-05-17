@@ -1,22 +1,15 @@
 //Car Class
-class Car extends Vehicleinfo{
-    int NOofdoors;
-
-    Car(String modelname , int NOofdoors){
-        super(modelname);
-        this.NOofdoors = NOofdoors;
-    }
-
+class Car implements Vehicle{
     public void fueltank(){
-        System.out.println("The Fuel Tank is of 50litres");
+        System.out.println("Fuel tank");
     }
     public void speed(){
-        System.out.println("The Maximum speed of car is 400km/h");
+        System.out.println("Speed");
+    }
+    public void model(){
+        System.out.println("model");
     }
     public void type(){
-        System.out.println("Type: Car");
-    }
-    public void extrafeature(){
-        System.out.println("No Of Doors : " + NOofdoors);
+        System.out.println("Car");
     }
 }

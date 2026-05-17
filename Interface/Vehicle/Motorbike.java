@@ -1,19 +1,15 @@
 //MotorBike class
-class Motorbike extends Vehicleinfo{
-    Motorbike(String modelname){
-        super(modelname);
-    }
-
-    public void fueltank() {
-        System.out.println("The Fuel tank is 15 litres");
+class Motorbike implements Vehicle{
+    public void fueltank(){
+        System.out.println("Fuel tank");
     }
     public void speed(){
-        System.out.println("The maximum speed is 150 km/h");
+        System.out.println("Speed");
+    }
+    public void model(){
+        System.out.println("model");
     }
     public void type(){
-        System.out.println("Type: MotorBike");
-    }
-    public void extrafeature(){
-        System.out.println("Its a Heavy Bike");
+        System.out.println("Car");
     }
 }
